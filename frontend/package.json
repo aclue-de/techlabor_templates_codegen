@@ -1,0 +1,30 @@
+{
+    "name": "frontend",
+    "version": "1.0.0",
+    "scripts": {
+        "start": "vite",
+        "build": "vite build",
+        "codegen": "npx @rtk-query/codegen-openapi src/state/api/openapi-config.ts"
+    },
+    "dependencies": {
+        "@emotion/react": "^11.11.4",
+        "@emotion/styled": "^11.11.0",
+        "@mui/material": "^5.15.15",
+        "@reduxjs/toolkit": "^2.2.2",
+        "react": "^18.2.0",
+        "react-dom": "^18.2.0",
+        "react-redux": "^9.1.0",
+        "react-router-dom": "^6.4.3"
+    },
+    "devDependencies": {
+        "@rtk-query/codegen-openapi": "^1.2.0",
+        "@types/react": "^18.0.25",
+        "@types/react-dom": "^18.0.9",
+        "@types/react-redux": "^7.1.24",
+        "@types/react-router-dom": "^5.3.3",
+        "@vitejs/plugin-react": "^4.2.1",
+        "ts-node": "^10.9.2",
+        "typescript": "^5.4.3",
+        "vite": "^5.2.3"
+    }
+}
